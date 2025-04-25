@@ -3,6 +3,8 @@ name: Node CI
 on:
   push:
     branches: [ main ]
+      
+  workflows_dispatch:
 
 jobs:
   build:
